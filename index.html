@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./b5.css">
+</head>
+<body>
+    <h1 class="p-4 fw-bold text-center text-info">Proyecto</h1>
+    <!--DATOS DE LA MATERIA RESALTADOS EN NAV-TABS CON ESTILO -->
+    <ul id="nav-tabs" class="nav nav-tabs nav-justified">
+        <li id="nav-1" class="nav-item">
+            <a class="nav-link active fw-bold text-info" id="le" aria-current="page" href="#">Lenguajes y Automatas II</a>
+        </li>
+        <li class="nav-2">
+            <a class="nav-link active fw-bold text-info" id="se" href="#">7 ISC</a>
+        </li>
+        <li class="nav-3">
+            <a class="nav-link active fw-bold text-info" id="prof" href="#">Profesor: Diego Alberto Bollas Paredes</a>
+        </li>
+        <li class="nav-4">
+            <a class="nav-link active fw-bold text-info" id="alum" aria-disabled="true">Alumna: Guzman Gomez Karla Elisa</a>
+        </li>
+    </ul>
+<!--TEXTAREA DONDE SE ESCRIBE Y ARROJA EL CODIGO DE JS A PHP ASI COMO LOS BOTONES PARA CONVERTI, COPIAR Y LIMPIAR-->
+    <body class="vh-100">
+        <div class="row mt-3">
+            <div class="col"></div>
+            <div class="col p-4 contenedor">
+                <div class="mb-4">
+                    <h2 class="text-info fw-bold text-center text-info">Código de JS a PHP</h2>
+                </div>
+                <div class="mb-4">
+                    <label for="texto" class="form-label text-info fw-bold fs-5">Ingrese código JS</label>
+                    <textarea id="texto" class="form-control" rows="6"></textarea>
+                </div>
+                <div class="d-flex justify-content-evenly mb-4">
+                    <button type="button" class="btn btn-info btn-lg text-info" id="convertiraPhp">PHP</button>
+                    <button type="button" class="btn btn-info btn-lg text-info" id="copiarPHP">Copiar</button>
+                    <button type="button" class="btn btn-info btn-lg text-info" id="limpiarPHP">Limpiar</button>
+                </div>
+                <div class="mb-4">
+                    <label for="salidaPhp" class="form-label text-info fw-bold fs-5">Resultado en PHP</label>
+                    <textarea id="salidaPhp" class="form-control" rows="6" readonly></textarea>
+                </div>
+            </div>
+            <div class="col"></div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="./main.js"></script>
+    </body>
+</html>

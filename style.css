@@ -1,0 +1,33 @@
+* , html{
+background-image: url("./fondo.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+/* Estilo para el contenedor principal */
+#nav-tabs {
+    background-color: #6EACDA; /* Color de fondo */
+    padding: 12px;
+    border-radius: 8px;
+}
+
+/* Estilo general para los enlaces */
+.custom-link {
+    color: #d5dc10 ; /* Azul  */
+    font-weight: bold; /* Negrita */
+    text-decoration: none; /* Sin subrayado */
+}
+
+#le, #se, #prof, #alum {
+    background-color: #113be1;
+}
+
+
+
+
+
+
+
+
+
